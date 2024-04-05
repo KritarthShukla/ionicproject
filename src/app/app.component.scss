@@ -1,51 +1,56 @@
-/* src/app/app.component.scss */
+.image-container {
 
-/* Style the ion-card element */
-ion-card {
-    /* Set background color */
-    background-color: #f5f5f5; /* Light gray background color */
-    
-    /* Set dimensions (length and breadth) */
-    width: 9450px;
-    height: 4697px;
-    top : 1196px;
-    left : -964px;
-    border: 1px;
-    
-    /* Center the card horizontally and vertically */
-    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-  }
-  
-  /* Style the ion-card-header element */
-  ion-card-header {
-    /* Add padding to the header */
-    padding: 10px;
-    
-    /* Optional: Set background color and text color for the header */
-    background-color: #007bff; /* Blue background color */
-    color: #fff; /* White text color */
-  }
-  
-  /* Style the ion-card-title element */
-  ion-card-title {
-    /* Optional: Set font size and weight for the title */
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-  /* Style the ion-card-subtitle element */
-  ion-card-subtitle {
-    /* Optional: Set font size for the subtitle */
-    font-size: 16px;
-  }
-  
-  /* Style the ion-card-content element */
-  ion-card-content {
-    /* Add padding to the content */
-    padding: 10px;
-  }
-  
+    width: 360px;
+    height: 800px;
+    background: linear-gradient(164.26deg, #D5E6FF -0.3%, #FFFFFF 31.71%, #FFFFFF 62.19%, #C9DEFF 97.25%);
+    // border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position:relative;
+}
+
+.image-container img{
+width: 93.18px;
+height: 150px;
+position: absolute;
+top: 164px;
+left: 133px;
+gap: 0px;
+opacity: 0px;
+
+
+}
+
+.image-container .G_icon{
+ width: 88px;
+height: 88px;
+position: absolute;
+top: 486px;
+left: 136px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+}
+.image-container .google{
+
+width: 167px;
+height: 20px;
+position: absolute;
+top: 437px;
+left: 97px;
+gap: 0px;
+opacity: 0px;
+
+font-family: NATS;
+font-size: 20px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+
+
+color: #1540BD;
+
+}
