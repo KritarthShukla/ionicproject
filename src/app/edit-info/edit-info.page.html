@@ -1,0 +1,92 @@
+<ion-content [fullscreen]="true"><div class="home">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="2" class="back-btn">
+          <ion-button>
+            <ion-icon name="chevron-back-outline" fill="outline"></ion-icon>
+          </ion-button>
+      </ion-col>
+
+      <ion-col size="10" class="edit">
+        Edit Info
+      </ion-col>
+    </ion-row>
+
+
+      <ion-row>
+         <ion-col>
+        <ion-img  class= "center-image" src="assets/Rectangle 61.png"alt="image"></ion-img>
+      </ion-col>
+          <!-- <ion-button>
+           <ion-icon name="camera-outline"class="button profilebutton icon ion-camera"ng-click="upload">
+
+          </ion-icon> 
+        </ion-button>-->
+       </ion-row >
+
+      <ion-row>
+        <ion-col class="ion-text-center"><h1>Admin</h1></ion-col>
+      </ion-row>
+    
+    <ion-row>
+      <ion-label >Name*</ion-label>
+      <ion-col size="12"><ion-input fill="outline" placeholder="Enter your Name"shape="round" required><ion-icon name="person-outline"slot="start"class="icon"></ion-icon></ion-input></ion-col>
+    </ion-row>
+    <br>
+
+    <ion-row>
+      <ion-label >Role</ion-label>
+      <!-- <ion-col>
+      <ion-select placeholder="Select Role">
+        <ion-select-option value="user">User</ion-select-option>
+        <ion-select-option value="admin">Admin</ion-select-option>
+      </ion-select>
+    </ion-col>  -->
+
+      <ion-col size="12"><ion-input fill="outline" placeholder="Enter your Name"shape="round" required><ion-select placeholder="Select Role" interface="popover">
+      <ion-select-option value="user">User</ion-select-option>
+      <ion-select-option value="admin">Admin</ion-select-option>
+    </ion-select><ion-icon name="person-outline"slot="start"class="icon"></ion-icon></ion-input></ion-col>
+    </ion-row>
+    
+    <br>
+    <ion-row>
+      <ion-label >Employee ID*</ion-label>
+      <ion-col size="12"><ion-input fill="outline" placeholder="Enter your ID"shape="round" required><ion-icon name="id-card-outline"slot="start"class="icon"></ion-icon></ion-input></ion-col>
+    </ion-row>
+    <br>
+
+  <ion-row>
+      <ion-label >Email</ion-label>
+      <ion-col size="12"><ion-input fill="outline" placeholder="Enter valid email"shape="round" required><ion-icon name="mail-outline"slot="start"class="icon"></ion-icon></ion-input></ion-col>
+    </ion-row>
+    <br>
+  <ion-row>
+      <ion-label >Phone</ion-label>
+      <ion-col size="12"><ion-input fill="outline" placeholder="Enter your mobile number"shape="round" required><ion-icon name="call-outline"slot="start"class="icon"></ion-icon></ion-input></ion-col>
+    </ion-row>
+    <br>
+
+    <ion-row>
+      <ion-label >Address</ion-label>
+      <ion-col size="12"><ion-input fill="outline" placeholder="Enter your address"shape="round" required><ion-icon name="home-outline"slot="start"class="icon"></ion-icon></ion-input></ion-col>
+    </ion-row>
+    <br>
+
+    <ion-row>
+      <ion-label >salary</ion-label>
+      <ion-col size="12"><ion-input fill="outline" placeholder="Enter your N"shape="round" required><ion-icon name="person-outline"slot="start"class="icon"></ion-icon></ion-input></ion-col>
+    </ion-row>
+    <br>
+
+    <ion-row>
+      <ion-label >D.O.B</ion-label>
+      <ion-col size="12"><ion-input fill="outline" placeholder="Enter your N"shape="round" required><ion-icon name="person-outline"slot="start"class="icon"></ion-icon></ion-input></ion-col>
+    </ion-row>
+   <br>
+    
+ 
+</ion-grid>
+  </div>
+</ion-content>
